@@ -1,0 +1,9 @@
+{
+  "name": "asmr-auto",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "node server/index.js",
+    "install-server": "cd server && npm install"
+  }
+}
